@@ -8,11 +8,11 @@ START_BUTTON = [
         Button.inline("ʜєʟᴘ ᴧηᴅ ᴄσϻϻᴧηᴅ", data="help_back")
     ],
     [
-        Button.url("υᴘᴅᴀᴛᴇ", "https://t.me/HeadquarterSmg"),
-        Button.url("sυᴘᴘσʀᴛ", "https://t.me/SUPP0RT_SMG")
+        Button.url("υᴘᴅᴀᴛᴇ", "https://t.me/+Imyf3M9TO5k1ODRl"),
+        Button.url("sυᴘᴘσʀᴛ", "https://t.me/+dv_rcq5uIXhmMWM1")
     ],
     [
-        Button.url("𝐌ᴜꜱɪᴄ ʙᴏᴛ", "https://t.me/AestheticTunesBot")
+        Button.url("𝐌ᴜꜱɪᴄ ʙᴏᴛ", "https://t.me/RADHA_MUSIC_GMS_op_bot")
     ]
 ]
 
