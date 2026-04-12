@@ -1,10 +1,16 @@
-FROM debian:latest
+FROM python:3.11-slim
 
-RUN apt update && apt upgrade -y
-RUN apt install git curl python3-pip -y
-RUN pip3 install -U pip
-RUN mkdir /app/
-WORKDIR /app/
+WORKDIR /app
+
+# Install required system packages (if needed)
+RUN apt update && apt install -y git curl && rm -rf /var/lib/apt/lists/*
+
+# Copy your project files
 COPY . /app/
-RUN pip3 install -U -r requirements.txt
-CMD python3 main.py
+
+# Upgrade pip & install requirements
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
+
+# Run your bot
+CMD ["python", "main.py"]
