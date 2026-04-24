@@ -24,7 +24,7 @@ async def ping(e):
         altron = await e.reply(f"•[ 🍃 𝐌ᴀᴅᴀʀᴀ ᴘᴀᴘᴀ σᴘ 🍃 ]•")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"[🍹] ᴅғѕ вααᴘ кє gυℓαм\n[🏓] ɪᴊᴊᴀт ѕє ʀαниα\n[⚡] αυʀ ᴄнυᴅ ᴊαуαgα иαнɪ тσ\n\n➜ `{mp} ms`")
+        await altron.edit(f"[🍹] 𝐌ᴀᴅᴀʀᴀ вααᴘ кє gυℓαм\n[🏓] ɪᴊᴊᴀт ѕє ʀαниα\n[⚡] αυʀ ᴄнυᴅ ᴊαуαgα иαнɪ тσ\n\n➜ `{mp} ms`")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -99,7 +99,7 @@ async def addsudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"»🍃 **𝐖єℓᴄσмє тσ ᴅғѕ gαᴅᴅαʀɪ иαнɪ кαʀиα иαнɪ тσ вαᴅмσѕнɪ мα кαʀυgα αυʀ ααᴊ ѕє тυ нαмℓσg кα внαɪ** 🍃")
+        ok = await event.reply(f"»🍃 **𝐖єℓᴄσмє gαᴅᴅαʀɪ иαнɪ кαʀиα иαнɪ тσ вαᴅмσѕнɪ мα кαʀυgα αυʀ ααᴊ ѕє тυ нαмℓσg кα внαɪ** 🍃")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
