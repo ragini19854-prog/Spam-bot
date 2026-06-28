@@ -23,7 +23,7 @@ HEROKU_API_KEY = ""
 
 # ------------------ USERS ------------------
 
-SUDO_USERS = [6321617217 , 8499276647 , 6339597481]
+SUDO_USERS = [6321617217 , 8499276647 , 6339597481 , 7816235846]
 
 for x in ALTRON:
     if x not in SUDO_USERS:
